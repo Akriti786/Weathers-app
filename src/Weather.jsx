@@ -130,7 +130,7 @@ const styles = {
     cursor: "pointer",
   },
   card: {
-    background: "#fce4ec",
+    background: "#lightgray",
     borderRadius: "15px",
     padding: "1rem",
     boxShadow: "inset 0 0 10px rgba(0, 0, 0, 0.05)",
