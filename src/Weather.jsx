@@ -64,7 +64,7 @@ const WeatherApp = () => {
         </div>
 
         <div style={styles.card}>
-          <h2 style={{ color: "#d81b60" }}>Weather Info</h2>
+          <h2 style={{ color: "#000" }}>Weather Info</h2>
           <p>📍 Location: {location.city ? `${location.city}, ${location.district}, ${location.state}` : "-"}</p>
           <p>🕒 Date/Time: {weather ? weather.datetime : "-"}</p>
           <p>🌡 Temperature: {weather ? weather.temperature : "-"}</p>
